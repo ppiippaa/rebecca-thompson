@@ -1,0 +1,34 @@
+@import '../../variables';
+
+.contact-banner-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: $burgundy;
+
+  p {
+    font-family: $font-accent;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0 0 15px 15%;
+
+  }
+
+  Button {
+    margin-left: 15%;
+    padding: 6px 8px;
+
+    a {
+      color: $burgundy;
+    }
+
+    &:hover::after {
+      color: $burgundy;
+    }
+
+  }
+}

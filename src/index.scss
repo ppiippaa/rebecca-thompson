@@ -1,0 +1,10 @@
+@import './variables';
+
+body {
+  font-family: $font-plain;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+

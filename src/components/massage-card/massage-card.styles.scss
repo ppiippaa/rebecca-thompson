@@ -1,0 +1,24 @@
+@import '../../variables.scss';
+
+.massage-card {
+  padding: 0 2rem;
+
+  img {
+    height: 280px;
+    width: 350px;
+  }
+
+  h4 {
+    font-family: $font-accent;
+    font-size: 1.3rem;
+    color: $teal;
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+
+
+}

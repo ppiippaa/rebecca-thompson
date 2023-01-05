@@ -3,8 +3,6 @@
 
 .home-page {
 
-
-//LANDING SECTION
   .landing-section {
     .landing-section-title {
       font-family: $font-accent;
@@ -16,12 +14,14 @@
       background-size: cover;
       text-align: left;
       padding: 25vh 0 10vh 0;
+
       h1 {
         text-transform: uppercase;
         margin-top: 6rem;
         margin-bottom: 0;
         margin-left: 15%;
       }
+
       h2 {
         margin-top: 0;
         margin-left: 15%;
@@ -32,20 +32,24 @@
       display: flex;
       flex-direction: row;
       min-height: 65vh;
+
       .landing-section-text {
         background-color: $light-grey;
         width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+
         .landing-p {
           text-align: left;
+
           p {
             padding-top: 20px;
             color: $burgundy;
             font-size: 1.2rem;
             font-weight: bold;
             margin-left: 12%;
+
             span {
               display: block;
               padding: 5px;
@@ -54,9 +58,11 @@
         }
 
         .landing-ul {
-            text-align: left;
+          text-align: left;
+
           ul {
             margin-left: 28%;
+
             li {
               padding: 10px;
             }
@@ -70,40 +76,34 @@
             padding: 12px 14px;
             border: 2px solid $teal;
 
-
             &:hover {
-              background-color: rgba(0,0,0,0.2);
-              border: none;
+              background-color: rgba(0, 0, 0, 0.2);
+              border: 2px solid transparent;
+
               &::after {
                 color: $teal;
               }
-
             }
 
             a {
               color: $teal;
             }
           }
-
-
         }
       }
 
-
       .landing-section-image {
         width: 50%;
+
         img {
           height: 100%;
           width: 100%;
         }
-
       }
-
     }
-
   }
 
-// RESERVATION SECTION
+
   .online-reservations {
     width: 100%;
     height: 40vh;
@@ -111,19 +111,23 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right, rgba(31,113,143, 0.8), rgba(47,132,161, 0.8) ), url("../../assets/icy-globe.jpg");
+    background-image: linear-gradient(to right, rgba(31, 113, 143, 0.8), rgba(47, 132, 161, 0.8)), url("../../assets/icy-globe.jpg");
+
     Button {
       font-size: 1.2rem;
       background-color: transparent;
       padding: 12px 14px;
       border: 2px solid white;
+
       &:hover {
-        background-color: rgba(255,255,255, 0.2);
-        border: none;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 2px solid transparent;
+
         &::after {
           color: white
         }
       }
+
       a {
         color: white;
       }
@@ -131,81 +135,70 @@
   }
 
 
+  .explanation-and-experience {
+    .grid-container {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
 
-// EXPLANATION AND EXPERIENCE
-.explanation-and-experience {
-  .grid-container {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-
-    .grid-child {
-      height: 100%;
-      width: 100%;
-      img {
+      .grid-child {
         height: 100%;
         width: 100%;
-      }
-    }
 
-
-  .explanation-text-container,
-  .experience-text-container {
-    max-width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 40px 0;
-  }
-
-    .grid-text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      .subheading {
-        font-family: $font-accent;
-        font-weight: bold;
-        font-size: 2rem;
-      }
-    }
-
-    .explanation-text-container {
-      color: white;
-    }
-
-    .burgundy-bg {
-      background-color: $burgundy;
-    }
-    .experience-text-container {
-      color: $teal;
-
-      .subheading {
-        color: $burgundy;
+        img {
+          height: 100%;
+          width: 100%;
+        }
       }
 
-      ul {
-        list-style: none;
-        text-align: left;
+      .explanation-text-container,
+      .experience-text-container {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0;
+      }
 
-        li {
-          padding: 5px 0;
+      .grid-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .subheading {
+          font-family: $font-accent;
+          font-weight: bold;
+          font-size: 2rem;
+        }
+      }
+
+      .explanation-text-container {
+        color: white;
+      }
+
+      .burgundy-bg {
+        background-color: $burgundy;
+      }
+
+      .experience-text-container {
+        color: $teal;
+
+        .subheading {
+          color: $burgundy;
+        }
+
+        ul {
+          list-style: none;
+          text-align: left;
+
+          li {
+            padding: 5px 0;
+          }
         }
       }
     }
-
-
-
   }
-
-
-
-
-}
-
-
-
 }

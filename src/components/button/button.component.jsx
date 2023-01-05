@@ -1,9 +1,9 @@
 import React from 'react';
 import './button.styles.scss';
 
-const Button = ( { text, fontColor, backgroundColor, href } ) => {
+const Button = ( { text, href } ) => {
     return (
-        <button><a href="">{text}</a></button>
+        <button><a href={href}>{text}</a></button>
     );
 };
 

@@ -3,22 +3,21 @@ import './home.styles.scss';
 import Button from "../../components/button/button.component";
 import ChaletImage from '../../assets/chalet-mountain-backdrop.jpg';
 import BackMassage from '../../assets/massage-b&w.jpg';
+import HandMassage from '../../assets/hand-massage-b&w.jpg';
+import YogaMassage from '../../assets/yoga-massage-bw.jpg';
 
 
 const Home = () => {
     return (
-        <div className='home-page'>
+        <div className='home-page' id='home'>
 
-            {/*LANDING*/}
             <section className='landing-section'>
                 <div className='landing-section-title'>
                     <h1>Massage Therapeutique</h1>
                     <h2>Epinassey</h2>
                 </div>
-
                 <div className='landing-section-text-and-image'>
                     <div className='landing-section-text'>
-
                         <div className='landing-p'>
                             <p>
                                 <span>Soins dans la nature ou en salle</span>
@@ -27,7 +26,6 @@ const Home = () => {
                                 <span>1890 Epinassey (St-Maurice)</span>
                             </p>
                         </div>
-
                         <div className='landing-ul'>
                             <ul>
                                 <li>Déblocage du dos</li>
@@ -37,34 +35,25 @@ const Home = () => {
                                 <li>Massage du ventre (aide la digestion)</li>
                             </ul>
                         </div>
-
                         <div className='landing-button'>
-                            <Button text="Plus d'infos"/>
+                            <Button text="Plus d'infos" href='/massages-et-tarifs'/>
                         </div>
-
                     </div>
                     <div className='landing-section-image'>
-                        <img src={ChaletImage} alt="Epinassy"/>
+                        <img src={ChaletImage} alt="Location en Epinassy"/>
                     </div>
-
                 </div>
             </section>
 
-
-            {/*RESERVATION BUTTON*/}
             <section className='online-reservations'>
-                <Button text='Réservations en ligne'/>
+                <Button text='Réservations en ligne' href="https://calendly.com/revenirosens"/>
             </section>
 
-
-            {/*EXPLANATION*/}
             <section className='explanation-and-experience'>
-
                 <div className='grid-container grid-img'>
                     <div className='grid-child'>
-                        <img src={BackMassage} alt="back massage"/>
+                        <img src={BackMassage} alt="Back massage"/>
                     </div>
-
                     <div className='grid-child grid-text burgundy-bg'>
                         <div className='explanation-text-container'>
                             <h3 className='subheading explanation-title'>L'approche</h3>
@@ -80,7 +69,6 @@ const Home = () => {
                                 un charmant et chaleureux atelier transformé en salle de soins.</p>
                         </div>
                     </div>
-
                     <div className='grid-child grid-text'>
                         <div className='experience-text-container'>
                             <h3 className='subheading experience-title'>Rebecca Thompson <br/>Massothérapeute et enseignente
@@ -97,16 +85,12 @@ const Home = () => {
                                 <li><strong>Massage thérapeutique</strong> - 2015</li>
                             </ul>
                         </div>
-
                     </div>
-
                     <div className='grid-child grid-img'>
-                        <img src={BackMassage} alt=""/>
+                        <img src={YogaMassage} alt="Yoga massage"/>
                     </div>
                 </div>
-
             </section>
-
         </div>
     );
 };

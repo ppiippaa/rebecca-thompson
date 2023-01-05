@@ -6,7 +6,7 @@ const ContactBanner = () => {
     return (
         <div className='contact-banner-container'>
             <p>Prendre contact</p>
-            <Button className='contact-banner-button' text='Contact'/>
+            <Button className='contact-banner-button' text='contact' href='/contact'/>
         </div>
     );
 };

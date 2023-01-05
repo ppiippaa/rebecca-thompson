@@ -6,10 +6,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  margin-top: 23vh;
 
   .massages-title {
-    margin-top: 35vh;
+    margin-top: 7rem;
     font-family: $font-accent;
     font-size: 2.5rem;
     color: $teal;
@@ -38,13 +38,11 @@
     padding: 4rem 0;
     background-color: $pink;
     color: white;
-    //margin-bottom: 7rem;
 
     h2 {
       font-family: $font-accent;
       font-size: 2.2rem;
     }
-
   }
 
   .alternative-payment {
@@ -53,7 +51,6 @@
     background-image: url('../../assets/fond-2.png');
     background-position: center;
     background-size: cover;
-
 
     h3 {
       font-family: $font-accent;
@@ -70,7 +67,6 @@
       color: $teal;
     }
   }
-
 }
 
 

@@ -9,7 +9,6 @@ const Home = () => {
     return (
         <div className='home-page'>
 
-
             {/*LANDING*/}
             <section className='landing-section'>
                 <div className='landing-section-title'>

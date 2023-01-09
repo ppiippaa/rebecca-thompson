@@ -50,7 +50,7 @@ const Home = () => {
             </section>
 
             <section className='explanation-and-experience'>
-                <div className='grid-container grid-img'>
+                <div className='grid-container grid-img back-massage-img'>
                     <div className='grid-child'>
                         <img src={BackMassage} alt="Back massage"/>
                     </div>
@@ -86,7 +86,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='grid-child grid-img'>
+                    <div className='grid-child grid-img yoga-massage-img'>
                         <img src={YogaMassage} alt="Yoga massage"/>
                     </div>
                 </div>

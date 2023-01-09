@@ -5,6 +5,21 @@ $light-grey: rgb(235,235,235);
 $pink: rgb(184,117,150);
 $blue: rgb(27,117,148);
 
-/* Type faces*/
+/* Type faces */
 $font-plain: 'Lato', sans-serif;
 $font-accent: 'Dancing Script', cursive;
+
+/* Media Query Mixin */
+@mixin devices ($breakpoint) {
+  @if $breakpoint == tablet {
+    @media only scfeen and (max-width: 680px) {
+      @content
+    }
+  }
+
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 481px) {
+      @content
+    }
+  }
+}

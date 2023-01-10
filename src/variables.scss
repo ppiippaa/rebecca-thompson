@@ -23,3 +23,14 @@ $font-accent: 'Dancing Script', cursive;
     }
   }
 }
+
+/* Animation */
+@mixin animate($animation, $duration, $method) {
+  animation: $animation $duration $method;
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content
+  }
+}

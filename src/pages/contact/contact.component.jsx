@@ -9,7 +9,7 @@ const Contact = () => {
             <section className='contact-section'>
                 <div className='contact-info'>
                     <div className='contact-info-text-container'>
-                        <h1>Prendre Contact</h1>
+                        <h1 className=''>Prendre Contact</h1>
                         <div className='p-container'>
                             <p>+41 78 919 47 37</p>
                             <p>rebecca@rebeccathompson.ch</p>

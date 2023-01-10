@@ -16,6 +16,15 @@
     @include devices(mobile and tablet) {
       margin-top: 4.5rem;
     }
+    @include keyframes(slide-in) {
+      from {
+        transform: translateX(-300px);
+      }
+      to {
+        transform: translateX(18px);
+      }
+    }
+    @include animate(slide-in, 1500ms, ease-in-out)
   }
 
   .massages-grid {
@@ -30,8 +39,16 @@
       align-items: center;
       justify-content: center;
       padding: 2rem 0 4rem 0;
-
     }
+    @include keyframes(slide-in) {
+      from {
+        transform: translateX(-300px);
+      }
+      to {
+        transform: translateX(18px);
+      }
+    }
+    @include animate(slide-in, 1500ms, ease-in-out)
   }
 
   .tarifs-text-container {

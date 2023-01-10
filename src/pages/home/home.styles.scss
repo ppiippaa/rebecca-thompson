@@ -33,11 +33,29 @@
         @include devices(tablet) {
           margin-top: 3rem;
         }
+        @include keyframes(slide-in) {
+          from {
+            transform: translateX(-300px);
+          }
+          to {
+            transform: translateX(18px);
+          }
+        }
+        @include animate(slide-in, 1500ms, ease-in-out)
       }
 
       h2 {
         margin-top: 0;
         margin-left: 15%;
+        @include keyframes(slide-in) {
+          from {
+            transform: translateX(-300px);
+          }
+          to {
+            transform: translateX(18px);
+          }
+        }
+        @include animate(slide-in, 1500ms, ease-in-out)
       }
     }
 
@@ -69,7 +87,15 @@
           @include devices(mobile) {
             text-align: center;
           }
-
+          @include keyframes(slide-in) {
+            from {
+              transform: translateX(-300px);
+            }
+            to {
+              transform: translateX(18px);
+            }
+          }
+          @include animate(slide-in, 2000ms, ease-in-out);
 
           p {
             padding-top: 20px;
@@ -80,7 +106,6 @@
             @include devices(mobile) {
               margin-left: 0;
             }
-
 
             span {
               display: block;
@@ -97,6 +122,16 @@
           @include devices(tablet) {
             padding-top: 0;
           }
+          @include keyframes(slide-in) {
+            from {
+              transform: translateX(-300px);
+            }
+            to {
+              transform: translateX(18px);
+            }
+          }
+          @include animate(slide-in, 2500ms, ease-in-out);
+
 
           ul {
             margin-left: 28%;
@@ -252,8 +287,6 @@
         @include devices(mobile and tablet) {
           max-width: 80%;
         }
-
-
       }
 
       .grid-text {
@@ -319,7 +352,6 @@
             width: 65%;
             padding-left: 0;
           }
-
 
           li {
             padding: 5px 0;

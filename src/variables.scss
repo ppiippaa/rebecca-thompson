@@ -12,7 +12,7 @@ $font-accent: 'Dancing Script', cursive;
 /* Media Query Mixin */
 @mixin devices ($breakpoint) {
   @if $breakpoint == tablet {
-    @media only scfeen and (max-width: 680px) {
+    @media only screen and (max-width: 768px) {
       @content
     }
   }

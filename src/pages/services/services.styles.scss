@@ -29,7 +29,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 3rem 0 6rem 0;
+      padding: 2rem 0 4rem 0;
 
     }
   }
@@ -42,6 +42,10 @@
   .alternative-payment-text-container {
     max-width: 80%;
     margin: 0 auto;
+    @include devices(mobile) {
+      max-width: 70%;
+      text-align: justify;
+    }
   }
 
   .tarifs {
@@ -62,6 +66,9 @@
     background-image: url('../../assets/fond-2.png');
     background-position: center;
     background-size: cover;
+    @include devices(mobile) {
+      padding: 5rem 0;
+    }
 
     h3 {
       font-family: $font-accent;

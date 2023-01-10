@@ -14,11 +14,11 @@
       background-size: cover;
       text-align: left;
       padding: 25vh 0 10vh 0;
-      @include devices(mobile) {
-        height: 25vh;
-      }
       @include devices(tablet) {
-        height: 12vh;
+        height: 20vh;
+      }
+      @include devices(mobile) {
+        height: 15vh;
       }
 
 
@@ -27,12 +27,16 @@
         margin-top: 6rem;
         margin-bottom: 0;
         margin-left: 15%;
+        @include devices(tablet) {
+          margin-top: 4rem;
+          font-size: 1.6rem;
+        }
         @include devices(mobile) {
           margin-top: 2.8rem;
+          font-size: 1.8rem;
+          margin-left: 7%;
         }
-        @include devices(tablet) {
-          margin-top: 3rem;
-        }
+
         @include keyframes(slide-in) {
           from {
             transform: translateX(-300px);
@@ -55,7 +59,10 @@
             transform: translateX(18px);
           }
         }
-        @include animate(slide-in, 1500ms, ease-in-out)
+        @include animate(slide-in, 1500ms, ease-in-out);
+        @include devices(mobile) {
+          margin-left: 7%;
+        }
       }
     }
 
@@ -66,8 +73,6 @@
       @include devices(mobile and tablet)  {
         flex-direction: column;
       }
-
-
 
       .landing-section-text {
         background-color: $light-grey;
@@ -116,12 +121,13 @@
 
         .landing-ul {
           text-align: left;
-          @include devices(mobile) {
-            padding-top: 12px;
-          }
           @include devices(tablet) {
             padding-top: 0;
           }
+          @include devices(mobile) {
+            padding-top: 12px;
+          }
+
           @include keyframes(slide-in) {
             from {
               transform: translateX(-300px);
@@ -135,11 +141,12 @@
 
           ul {
             margin-left: 28%;
-            @include devices(mobile) {
-              margin-left: 10%;
-            }
             @include devices(tablet) {
               margin-left: 8%;
+            }
+
+            @include devices(mobile) {
+              margin-left: 10%;
             }
 
             li {
@@ -157,12 +164,22 @@
             margin: 20px 0 20px 48%;
             padding: 12px 14px;
             border: 2px solid $teal;
-            @include devices(mobile) {
-              margin: 30px 0 60px 0;
+            @include keyframes(slide-in) {
+              from {
+                transform: translateX(-300px);
+              }
+              to {
+                transform: translateX(18px);
+              }
             }
+            @include animate(slide-in, 1500ms, ease-in-out);
             @include devices(tablet) {
               margin: 3rem 0 3rem 50%;
             }
+            @include devices(mobile) {
+              margin: 30px 0 60px 0;
+            }
+
 
             &:hover {
               background-color: rgba(0, 0, 0, 0.2);
@@ -182,19 +199,18 @@
 
       .landing-section-image {
         width: 50%;
-        @include devices(mobile) {
-          width: 100%;
-          height: 320px;
-        }
         @include devices(tablet) {
           height: 620px;
           width: 100%;
+        }
+        @include devices(mobile) {
+          width: 100%;
+          height: 350px;
         }
 
         img {
           height: 100%;
           width: 100%;
-
         }
       }
     }
@@ -210,7 +226,7 @@
     justify-content: center;
     background-image: linear-gradient(to right, rgba(31, 113, 143, 0.8), rgba(47, 132, 161, 0.8)), url("../../assets/icy-globe.jpg");
     @include devices(tablet) {
-      height: 25vh;
+      height: 30vh;
     }
 
     Button {
@@ -265,12 +281,12 @@
         img {
           height: 100%;
           width: 100%;
-          @include devices(mobile) {
-            height: 910px;
-            margin-bottom: -4px;
-          }
           @include devices(tablet) {
             height: 920px;
+            margin-bottom: -4px;
+          }
+          @include devices(mobile) {
+            height: 910px;
             margin-bottom: -4px;
           }
         }
@@ -307,14 +323,15 @@
 
       .explanation-text-container {
         color: white;
-        @include devices(mobile) {
-          font-size: 0.9rem;
-          text-align: justify;
-        }
         @include devices(tablet) {
           text-align: justify;
           padding-bottom: 2rem;
         }
+        @include devices(mobile) {
+          font-size: 0.9rem;
+          text-align: justify;
+        }
+
       }
 
       .burgundy-bg {
@@ -332,14 +349,15 @@
 
       .experience-text-container {
         color: $teal;
-        @include devices(mobile) {
-          padding: 30px 0;
-          font-size: 0.9rem;
-        }
         @include devices(tablet) {
           margin-top: 7rem;
           padding: 3rem 0;
         }
+        @include devices(mobile) {
+          padding: 30px 0;
+          font-size: 0.9rem;
+        }
+
 
         .subheading {
           color: $burgundy;

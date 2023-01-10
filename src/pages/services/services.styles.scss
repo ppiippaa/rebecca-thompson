@@ -86,11 +86,11 @@
     background-image: url('../../assets/fond-2.png');
     background-position: center;
     background-size: cover;
-    @include devices(mobile) {
-      padding: 5rem 0;
-    }
     @include devices(tablet) {
       line-height: 1.2rem;
+    }
+    @include devices(mobile) {
+      padding: 5rem 0;
     }
 
     h3 {

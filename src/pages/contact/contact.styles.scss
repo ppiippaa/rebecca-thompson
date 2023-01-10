@@ -3,12 +3,13 @@
 
 .contact-page {
   margin-top: 23vh;
-  @include devices(mobile) {
-    margin-top: 21vh;
-  }
   @include devices (tablet) {
     margin-top: 20vh;
   }
+  @include devices(mobile) {
+    margin-top: 21vh;
+  }
+
 
   .contact-section {
     display: flex;

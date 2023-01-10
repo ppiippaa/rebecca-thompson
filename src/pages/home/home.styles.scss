@@ -45,12 +45,10 @@
       display: flex;
       flex-direction: row;
       min-height: 65vh;
-      @include devices(mobile) {
+      @include devices(mobile and tablet)  {
         flex-direction: column;
       }
-      @include devices(tablet) {
-        min-height: 500px;
-      }
+
 
 
       .landing-section-text {
@@ -59,16 +57,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        @include devices(mobile) {
+        @include devices(mobile and tablet) {
           width: 100%;
           justify-content: center;
           padding-top: 30px;
         }
-        @include devices(tablet) {
-          justify-content: center;
-          height: 500px;
-          width: 42%;
-        }
+
 
         .landing-p {
           text-align: left;
@@ -86,9 +80,7 @@
             @include devices(mobile) {
               margin-left: 0;
             }
-            @include devices(tablet) {
-              font-size: 1rem;
-            }
+
 
             span {
               display: block;
@@ -113,7 +105,6 @@
             }
             @include devices(tablet) {
               margin-left: 8%;
-
             }
 
             li {
@@ -135,7 +126,7 @@
               margin: 30px 0 60px 0;
             }
             @include devices(tablet) {
-              margin-left: 0;
+              margin: 3rem 0 3rem 50%;
             }
 
             &:hover {
@@ -161,8 +152,8 @@
           height: 320px;
         }
         @include devices(tablet) {
-          height: 500px;
-          width: 58%;
+          height: 620px;
+          width: 100%;
         }
 
         img {
@@ -183,7 +174,9 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to right, rgba(31, 113, 143, 0.8), rgba(47, 132, 161, 0.8)), url("../../assets/icy-globe.jpg");
-
+    @include devices(tablet) {
+      height: 25vh;
+    }
 
     Button {
       font-size: 1.2rem;
@@ -213,7 +206,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto auto;
-      @include devices(mobile) {
+      @include devices(mobile and tablet) {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -225,7 +218,7 @@
         width: 100%;
 
         .experience-text-container {
-          @include devices(mobile) {
+          @include devices(mobile and tablet) {
             width: 80%;
             z-index: 2;
             margin-bottom: -800px;
@@ -241,8 +234,10 @@
             height: 910px;
             margin-bottom: -4px;
           }
-
-
+          @include devices(tablet) {
+            height: 920px;
+            margin-bottom: -4px;
+          }
         }
       }
 
@@ -254,9 +249,11 @@
         align-items: center;
         justify-content: space-between;
         margin: 40px 0;
-        @include devices(mobile) {
+        @include devices(mobile and tablet) {
           max-width: 80%;
         }
+
+
       }
 
       .grid-text {
@@ -270,6 +267,9 @@
           font-weight: bold;
           font-size: 2rem;
         }
+        @include devices(tablet) {
+          padding-top: 0;
+        }
       }
 
       .explanation-text-container {
@@ -277,17 +277,23 @@
         @include devices(mobile) {
           font-size: 0.9rem;
           text-align: justify;
-
+        }
+        @include devices(tablet) {
+          text-align: justify;
+          padding-bottom: 2rem;
         }
       }
 
       .burgundy-bg {
         background-color: $burgundy;
-        @include devices(mobile) {
+        @include devices(mobile and tablet) {
           width: 80%;
           z-index: 2;
           margin-top: -850px;
           margin-bottom: -50px;
+        }
+        @include devices(tablet) {
+          margin-top: -780px;
         }
       }
 
@@ -296,7 +302,10 @@
         @include devices(mobile) {
           padding: 30px 0;
           font-size: 0.9rem;
-
+        }
+        @include devices(tablet) {
+          margin-top: 7rem;
+          padding: 3rem 0;
         }
 
         .subheading {
@@ -306,10 +315,11 @@
         ul {
           list-style: none;
           text-align: left;
-          @include devices(mobile) {
+          @include devices(mobile and tablet) {
             width: 65%;
             padding-left: 0;
           }
+
 
           li {
             padding: 5px 0;

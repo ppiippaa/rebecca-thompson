@@ -2,7 +2,7 @@
 
 .massage-card {
   padding: 0 2rem;
-  @include devices(mobile) {
+  @include devices(mobile and tablet) {
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -12,11 +12,17 @@
   }
 
 
+
   img {
     height: 280px;
     width: 350px;
     @include devices(mobile) {
       height: 260px;
+    }
+    @include devices(tablet) {
+      height: 350px;
+      width: 450px;
+      padding-bottom: 1.2rem;
     }
   }
 
@@ -24,11 +30,19 @@
     font-family: $font-accent;
     font-size: 1.3rem;
     color: $teal;
+    @include devices(tablet) {
+      font-size: 1.7rem;
+    }
   }
 
   p {
     font-size: 0.8rem;
     line-height: 1.2rem;
     text-align: justify;
+    @include devices(tablet) {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      padding-bottom: 1.2rem;
+    }
   }
 }

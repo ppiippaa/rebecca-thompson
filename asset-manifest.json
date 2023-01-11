@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/ppiippaa/rebecca-thompson/static/css/main.6cf41601.css",
-    "main.js": "/ppiippaa/rebecca-thompson/static/js/main.e401df8c.js",
-    "static/media/belly-massage.png": "/ppiippaa/rebecca-thompson/static/media/belly-massage.301b3db5748834989d8f.png",
-    "static/media/muscular-release.png": "/ppiippaa/rebecca-thompson/static/media/muscular-release.5b516e5eb4f53162407e.png",
-    "static/media/yoga-massage.png": "/ppiippaa/rebecca-thompson/static/media/yoga-massage.deaa407fe24be3ed3bdb.png",
-    "static/media/massage-b&w.jpg": "/ppiippaa/rebecca-thompson/static/media/massage-b&w.d18790b3b9b111609b5e.jpg",
-    "static/media/icy-globe.jpg": "/ppiippaa/rebecca-thompson/static/media/icy-globe.094c40408bf2c73fb794.jpg",
-    "static/media/arborescence1.jpg": "/ppiippaa/rebecca-thompson/static/media/arborescence1.34ba0ea5136711810f2c.jpg",
-    "static/media/chalet-mountain-backdrop.jpg": "/ppiippaa/rebecca-thompson/static/media/chalet-mountain-backdrop.1c595547f880d10a7b09.jpg",
-    "static/media/lady-wearing-towel.png": "/ppiippaa/rebecca-thompson/static/media/lady-wearing-towel.2ee6c7396f607601a738.png",
-    "static/media/hand-massage.png": "/ppiippaa/rebecca-thompson/static/media/hand-massage.502f536e53c1fc57b6f3.png",
-    "static/media/back-massage-b&w.png": "/ppiippaa/rebecca-thompson/static/media/back-massage-b&w.b0cba22e2d51758b5f78.png",
-    "static/media/yoga-massage-bw.jpg": "/ppiippaa/rebecca-thompson/static/media/yoga-massage-bw.fc29a8ce8ad32df144a7.jpg",
-    "static/media/fond-2.png": "/ppiippaa/rebecca-thompson/static/media/fond-2.fff642925a27c3e262ce.png",
-    "static/media/name-logo-landscape.png": "/ppiippaa/rebecca-thompson/static/media/name-logo-landscape.ad22171a08444cc69b78.png",
-    "static/media/hand-massage-b&w.jpg": "/ppiippaa/rebecca-thompson/static/media/hand-massage-b&w.56911b557e55ae72b43a.jpg",
-    "index.html": "/ppiippaa/rebecca-thompson/index.html",
-    "main.6cf41601.css.map": "/ppiippaa/rebecca-thompson/static/css/main.6cf41601.css.map",
-    "main.e401df8c.js.map": "/ppiippaa/rebecca-thompson/static/js/main.e401df8c.js.map"
+    "main.css": "/rebecca-thompson/static/css/main.19a9cb07.css",
+    "main.js": "/rebecca-thompson/static/js/main.b3699527.js",
+    "static/media/belly-massage.png": "/rebecca-thompson/static/media/belly-massage.301b3db5748834989d8f.png",
+    "static/media/muscular-release.png": "/rebecca-thompson/static/media/muscular-release.5b516e5eb4f53162407e.png",
+    "static/media/yoga-massage.png": "/rebecca-thompson/static/media/yoga-massage.deaa407fe24be3ed3bdb.png",
+    "static/media/massage-b&w.jpg": "/rebecca-thompson/static/media/massage-b&w.d18790b3b9b111609b5e.jpg",
+    "static/media/icy-globe.jpg": "/rebecca-thompson/static/media/icy-globe.094c40408bf2c73fb794.jpg",
+    "static/media/arborescence1.jpg": "/rebecca-thompson/static/media/arborescence1.34ba0ea5136711810f2c.jpg",
+    "static/media/chalet-mountain-backdrop.jpg": "/rebecca-thompson/static/media/chalet-mountain-backdrop.1c595547f880d10a7b09.jpg",
+    "static/media/lady-wearing-towel.png": "/rebecca-thompson/static/media/lady-wearing-towel.2ee6c7396f607601a738.png",
+    "static/media/hand-massage.png": "/rebecca-thompson/static/media/hand-massage.502f536e53c1fc57b6f3.png",
+    "static/media/back-massage-b&w.png": "/rebecca-thompson/static/media/back-massage-b&w.b0cba22e2d51758b5f78.png",
+    "static/media/yoga-massage-bw.jpg": "/rebecca-thompson/static/media/yoga-massage-bw.fc29a8ce8ad32df144a7.jpg",
+    "static/media/fond-2.png": "/rebecca-thompson/static/media/fond-2.fff642925a27c3e262ce.png",
+    "static/media/name-logo-landscape.png": "/rebecca-thompson/static/media/name-logo-landscape.ad22171a08444cc69b78.png",
+    "static/media/hand-massage-b&w.jpg": "/rebecca-thompson/static/media/hand-massage-b&w.56911b557e55ae72b43a.jpg",
+    "index.html": "/rebecca-thompson/index.html",
+    "main.19a9cb07.css.map": "/rebecca-thompson/static/css/main.19a9cb07.css.map",
+    "main.b3699527.js.map": "/rebecca-thompson/static/js/main.b3699527.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cf41601.css",
-    "static/js/main.e401df8c.js"
+    "static/css/main.19a9cb07.css",
+    "static/js/main.b3699527.js"
   ]
 }

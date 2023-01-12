@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.styles.scss';
 import Button from "../../components/button/button.component";
+import ButtonLocalLink from "../../components/button/button-local-link.component";
 import ChaletImage from '../../assets/chalet-mountain-backdrop.jpg';
 import BackMassage from '../../assets/massage-b&w.jpg';
 import YogaMassage from '../../assets/yoga-massage-bw.jpg';
@@ -35,7 +36,7 @@ const Home = () => {
                             </ul>
                         </div>
                         <div className='landing-button'>
-                            <Button text="Plus d'infos" href='/massages-et-tarifs'/>
+                            <ButtonLocalLink text="Plus d'infos" href={'/massages-et-tarifs'} />
                         </div>
                     </div>
                     <div className='landing-section-image'>

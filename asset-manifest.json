@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rebecca-thompson/static/css/main.19a9cb07.css",
-    "main.js": "/rebecca-thompson/static/js/main.2a6f5316.js",
+    "main.js": "/rebecca-thompson/static/js/main.6e12ca0a.js",
     "static/media/belly-massage.png": "/rebecca-thompson/static/media/belly-massage.301b3db5748834989d8f.png",
     "static/media/muscular-release.png": "/rebecca-thompson/static/media/muscular-release.5b516e5eb4f53162407e.png",
     "static/media/yoga-massage.png": "/rebecca-thompson/static/media/yoga-massage.deaa407fe24be3ed3bdb.png",
@@ -17,10 +17,10 @@
     "static/media/name-logo-landscape.png": "/rebecca-thompson/static/media/name-logo-landscape.ad22171a08444cc69b78.png",
     "index.html": "/rebecca-thompson/index.html",
     "main.19a9cb07.css.map": "/rebecca-thompson/static/css/main.19a9cb07.css.map",
-    "main.2a6f5316.js.map": "/rebecca-thompson/static/js/main.2a6f5316.js.map"
+    "main.6e12ca0a.js.map": "/rebecca-thompson/static/js/main.6e12ca0a.js.map"
   },
   "entrypoints": [
     "static/css/main.19a9cb07.css",
-    "static/js/main.2a6f5316.js"
+    "static/js/main.6e12ca0a.js"
   ]
 }

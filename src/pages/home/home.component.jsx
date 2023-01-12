@@ -3,7 +3,6 @@ import './home.styles.scss';
 import Button from "../../components/button/button.component";
 import ChaletImage from '../../assets/chalet-mountain-backdrop.jpg';
 import BackMassage from '../../assets/massage-b&w.jpg';
-import HandMassage from '../../assets/hand-massage-b&w.jpg';
 import YogaMassage from '../../assets/yoga-massage-bw.jpg';
 
 

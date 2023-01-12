@@ -36,7 +36,7 @@ const Home = () => {
                             </ul>
                         </div>
                         <div className='landing-button'>
-                            <ButtonLocalLink text="Plus d'infos" href={'/rebecca-thompson/massages-et-tarifs'} />
+                            <ButtonLocalLink text="Plus d'infos" href={'/massages-et-tarifs'} />
                         </div>
                     </div>
                     <div className='landing-section-image'>

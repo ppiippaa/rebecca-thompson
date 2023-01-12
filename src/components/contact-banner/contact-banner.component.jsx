@@ -7,7 +7,7 @@ const ContactBanner = () => {
     return (
         <div className='contact-banner-container'>
             <p>Prendre contact</p>
-            <ButtonLocalLink text='contact' href={'/contact'}/>
+            <ButtonLocalLink text='contact' href={'/rebecca-thompson/contact'}/>
         </div>
     );
 };

@@ -17,9 +17,9 @@ function App() {
             <div className="App">
                 <Nav/>
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='massages-et-tarifs' element={<Services/>}/>
-                    <Route path='contact' element={<Contact/>}/>
+                    <Route path='/rebecca-thompson' element={<Home/>}/>
+                    <Route path='/rebecca-thompson/massages-et-tarifs' element={<Services/>}/>
+                    <Route path='/rebecca-thompson/contact' element={<Contact/>}/>
                 </Routes>
                 <ContactBanner/>
                 <Footer/>

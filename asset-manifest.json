@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rebecca-thompson/static/css/main.19a9cb07.css",
-    "main.js": "/rebecca-thompson/static/js/main.6e12ca0a.js",
-    "static/media/belly-massage.png": "/rebecca-thompson/static/media/belly-massage.301b3db5748834989d8f.png",
-    "static/media/muscular-release.png": "/rebecca-thompson/static/media/muscular-release.5b516e5eb4f53162407e.png",
-    "static/media/yoga-massage.png": "/rebecca-thompson/static/media/yoga-massage.deaa407fe24be3ed3bdb.png",
-    "static/media/massage-b&w.jpg": "/rebecca-thompson/static/media/massage-b&w.d18790b3b9b111609b5e.jpg",
-    "static/media/icy-globe.jpg": "/rebecca-thompson/static/media/icy-globe.094c40408bf2c73fb794.jpg",
-    "static/media/arborescence1.jpg": "/rebecca-thompson/static/media/arborescence1.34ba0ea5136711810f2c.jpg",
-    "static/media/chalet-mountain-backdrop.jpg": "/rebecca-thompson/static/media/chalet-mountain-backdrop.1c595547f880d10a7b09.jpg",
-    "static/media/lady-wearing-towel.png": "/rebecca-thompson/static/media/lady-wearing-towel.2ee6c7396f607601a738.png",
-    "static/media/hand-massage.png": "/rebecca-thompson/static/media/hand-massage.502f536e53c1fc57b6f3.png",
-    "static/media/back-massage-b&w.png": "/rebecca-thompson/static/media/back-massage-b&w.b0cba22e2d51758b5f78.png",
-    "static/media/yoga-massage-bw.jpg": "/rebecca-thompson/static/media/yoga-massage-bw.fc29a8ce8ad32df144a7.jpg",
-    "static/media/fond-2.png": "/rebecca-thompson/static/media/fond-2.fff642925a27c3e262ce.png",
-    "static/media/name-logo-landscape.png": "/rebecca-thompson/static/media/name-logo-landscape.ad22171a08444cc69b78.png",
-    "index.html": "/rebecca-thompson/index.html",
-    "main.19a9cb07.css.map": "/rebecca-thompson/static/css/main.19a9cb07.css.map",
-    "main.6e12ca0a.js.map": "/rebecca-thompson/static/js/main.6e12ca0a.js.map"
+    "main.css": "/static/css/main.b11dddd4.css",
+    "main.js": "/static/js/main.df3bdb5d.js",
+    "static/media/belly-massage.png": "/static/media/belly-massage.301b3db5748834989d8f.png",
+    "static/media/muscular-release.png": "/static/media/muscular-release.5b516e5eb4f53162407e.png",
+    "static/media/yoga-massage.png": "/static/media/yoga-massage.deaa407fe24be3ed3bdb.png",
+    "static/media/massage-b&w.jpg": "/static/media/massage-b&w.d18790b3b9b111609b5e.jpg",
+    "static/media/icy-globe.jpg": "/static/media/icy-globe.094c40408bf2c73fb794.jpg",
+    "static/media/arborescence1.jpg": "/static/media/arborescence1.34ba0ea5136711810f2c.jpg",
+    "static/media/chalet-mountain-backdrop.jpg": "/static/media/chalet-mountain-backdrop.1c595547f880d10a7b09.jpg",
+    "static/media/lady-wearing-towel.png": "/static/media/lady-wearing-towel.2ee6c7396f607601a738.png",
+    "static/media/hand-massage.png": "/static/media/hand-massage.502f536e53c1fc57b6f3.png",
+    "static/media/back-massage-b&w.png": "/static/media/back-massage-b&w.b0cba22e2d51758b5f78.png",
+    "static/media/yoga-massage-bw.jpg": "/static/media/yoga-massage-bw.fc29a8ce8ad32df144a7.jpg",
+    "static/media/fond-2.png": "/static/media/fond-2.fff642925a27c3e262ce.png",
+    "static/media/name-logo-landscape.png": "/static/media/name-logo-landscape.ad22171a08444cc69b78.png",
+    "index.html": "/index.html",
+    "main.b11dddd4.css.map": "/static/css/main.b11dddd4.css.map",
+    "main.df3bdb5d.js.map": "/static/js/main.df3bdb5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.19a9cb07.css",
-    "static/js/main.6e12ca0a.js"
+    "static/css/main.b11dddd4.css",
+    "static/js/main.df3bdb5d.js"
   ]
 }

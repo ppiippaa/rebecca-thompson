@@ -58,7 +58,7 @@ const Home = () => {
                         <div className='explanation-text-container'>
                             <h3 className='subheading explanation-title'>L'approche</h3>
                             <p><strong>Je travaille beaucoup dans la douceur, afin de calmer le système nerveux et
-                                permettre une relaxation optimale. Une fois le corps est recéptif, on peux faire un
+                                permettre une relaxation optimale. Une fois le corps est recéptif, on peut faire un
                                 travail plus profond sur les muscles, mais toujours en écoutant ses limites, car la
                                 détente ne se force pas.</strong></p>
                             <p><strong>Je mélange souvent divers techniques, selon les besoins et le cas

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b11dddd4.css",
-    "main.js": "/static/js/main.021c38dd.js",
+    "main.js": "/static/js/main.c5e4cfb3.js",
     "static/media/belly-massage.png": "/static/media/belly-massage.301b3db5748834989d8f.png",
     "static/media/muscular-release.png": "/static/media/muscular-release.5b516e5eb4f53162407e.png",
     "static/media/yoga-massage.png": "/static/media/yoga-massage.deaa407fe24be3ed3bdb.png",
@@ -17,10 +17,10 @@
     "static/media/name-logo-landscape.png": "/static/media/name-logo-landscape.ad22171a08444cc69b78.png",
     "index.html": "/index.html",
     "main.b11dddd4.css.map": "/static/css/main.b11dddd4.css.map",
-    "main.021c38dd.js.map": "/static/js/main.021c38dd.js.map"
+    "main.c5e4cfb3.js.map": "/static/js/main.c5e4cfb3.js.map"
   },
   "entrypoints": [
     "static/css/main.b11dddd4.css",
-    "static/js/main.021c38dd.js"
+    "static/js/main.c5e4cfb3.js"
   ]
 }

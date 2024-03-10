@@ -12,7 +12,7 @@
       background-image: url('../../assets/fond-2.png');
       background-position: center;
       background-size: cover;
-      text-align: left;
+      text-align: center;
       padding: 25vh 0 10vh 0;
       @include devices(tablet) {
         height: 20vh;
@@ -26,15 +26,13 @@
         text-transform: uppercase;
         margin-top: 6rem;
         margin-bottom: 0;
-        margin-left: 15%;
         @include devices(tablet) {
           margin-top: 4rem;
           font-size: 1.6rem;
         }
         @include devices(mobile) {
           margin-top: 2.8rem;
-          font-size: 1.8rem;
-          margin-left: 7%;
+          font-size: 1.7rem;
         }
 
         @include keyframes(slide-in) {
@@ -50,7 +48,6 @@
 
       h2 {
         margin-top: 0;
-        margin-left: 15%;
         @include keyframes(slide-in) {
           from {
             transform: translateX(-300px);
@@ -61,7 +58,7 @@
         }
         @include animate(slide-in, 1500ms, ease-in-out);
         @include devices(mobile) {
-          margin-left: 7%;
+          font-size: 1.8rem;
         }
       }
     }
@@ -76,7 +73,7 @@
 
       .landing-section-text {
         background-color: $light-grey;
-        width: 50%;
+        width: 50.5%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -91,6 +88,7 @@
           text-align: left;
           @include devices(mobile) {
             text-align: center;
+            padding: 0 20px;
           }
           @include keyframes(slide-in) {
             from {
@@ -103,13 +101,17 @@
           @include animate(slide-in, 2000ms, ease-in-out);
 
           p {
-            padding-top: 20px;
+            padding-top: 40px;
             color: $burgundy;
             font-size: 1.2rem;
             font-weight: bold;
             margin-left: 12%;
+            font-family: $font-landing;
+
             @include devices(mobile) {
               margin-left: 0;
+              padding-top: 20px;
+              font-size: 1.1rem;
             }
 
             span {
@@ -123,6 +125,7 @@
           text-align: left;
           @include devices(tablet) {
             padding-top: 0;
+            padding-right: 40px;
           }
           @include devices(mobile) {
             padding-top: 12px;
@@ -140,7 +143,8 @@
 
 
           ul {
-            margin-left: 28%;
+            margin-left: 10%;
+            color: $burgundy;
             @include devices(tablet) {
               margin-left: 8%;
             }
@@ -150,7 +154,7 @@
             }
 
             li {
-              padding: 10px;
+              padding: 7px;
               @include devices(tablet) {
                 padding: 8px;
               }
@@ -161,7 +165,7 @@
         .landing-button {
           Button {
             font-size: 1.2rem;
-            margin: 20px 0 20px 48%;
+            margin: 10px 0 50px 48%;
             padding: 12px 14px;
             border: 2px solid $teal;
             @include keyframes(slide-in) {
@@ -198,54 +202,21 @@
       }
 
       .landing-section-image {
-        width: 50%;
+        width: 49.5%;
         @include devices(tablet) {
           height: 620px;
           width: 100%;
         }
         @include devices(mobile) {
           width: 100%;
-          height: 350px;
+          height: 370px;
+          // display: none;
         }
 
         img {
           height: 100%;
           width: 100%;
         }
-      }
-    }
-  }
-
-
-  .online-reservations {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to right, rgba(31, 113, 143, 0.8), rgba(47, 132, 161, 0.8)), url("../../assets/icy-globe.jpg");
-    @include devices(tablet) {
-      height: 30vh;
-    }
-
-    Button {
-      font-size: 1.2rem;
-      background-color: transparent;
-      padding: 12px 14px;
-      border: 2px solid white;
-
-      &:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        border: 2px solid transparent;
-
-        &::after {
-          color: white
-        }
-      }
-
-      a {
-        color: white;
       }
     }
   }
@@ -277,7 +248,6 @@
           }
         }
 
-
         img {
           height: 100%;
           width: 100%;
@@ -288,6 +258,7 @@
           @include devices(mobile) {
             height: 910px;
             margin-bottom: -4px;
+            object-fit: cover;
           }
         }
       }

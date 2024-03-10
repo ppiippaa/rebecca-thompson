@@ -2,7 +2,7 @@ import React from 'react';
 import './home.styles.scss';
 import Button from "../../components/button/button.component";
 import ButtonLocalLink from "../../components/button/button-local-link.component";
-import ChaletImage from '../../assets/chalet-mountain-backdrop.jpg';
+import LandingImage from '../../assets/lady-silhouette-landing.jpeg';
 import BackMassage from '../../assets/massage-b&w.jpg';
 import YogaMassage from '../../assets/yoga-massage-bw.jpg';
 
@@ -13,26 +13,32 @@ const Home = () => {
 
             <section className='landing-section'>
                 <div className='landing-section-title'>
-                    <h1>Therapeutique</h1>
-                    <h2>Epinassey</h2>
+                    <h1>Massage Thérapeutique</h1>
+                    <h2>Lavey-Village</h2>
                 </div>
                 <div className='landing-section-text-and-image'>
                     <div className='landing-section-text'>
                         <div className='landing-p'>
                             <p>
-                                <span>Soins dans la nature ou en salle</span>
-                                <span>À la Ferme du Closillon</span>
-                                <span>Route d'Epinassey 44</span>
-                                <span>1890 Epinassey (St-Maurice)</span>
+                                <span>Déesses, offrez-vous le cadeau de revenir à votre corps</span>
+                                <span>Le cadeau du temps et du soin</span>
+                                <span>De la douceur et de la bienveillance</span>
+                                <span>Pour régler votre système nerveux, hormonal, digestif</span>
+                                <span>Pour lâcher des tensions musculaires et émotionnelles</span>
+                                <span>Pour retrouver l'équilibre, la détente, le bien-être</span>
+                                <span>Pour revenir à vous-même</span>
                             </p>
                         </div>
                         <div className='landing-ul'>
                             <ul>
                                 <li>Déblocage du dos</li>
                                 <li>Détente musculaire</li>
-                                <li>Points de pression (encourage la circulation)</li>
+                                <li>Points de pression (améliore la circulation)</li>
                                 <li>Yoga massage (améliore la souplesse)</li>
-                                <li>Massage du ventre (aide la digestion)</li>
+                                <li>Massage du ventre (aide la digestion, soulage les troubles émotionnels)</li>
+                                <li>Soins énergétiques</li>
+                                <li>Yoni massage, womb healing, tantra pour femme</li>
+                                <li>Activation de la voix (voice healing)</li>
                             </ul>
                         </div>
                         <div className='landing-button'>
@@ -40,14 +46,12 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='landing-section-image'>
-                        <img src={ChaletImage} alt="Location en Epinassy"/>
+                        <img src={LandingImage} alt="silhouette d'une femme sur une plage"/>
                     </div>
                 </div>
             </section>
 
-            <section className='online-reservations'>
-                <Button text='Réservations en ligne' href="https://calendly.com/revenirosens"/>
-            </section>
+
 
             <section className='explanation-and-experience'>
                 <div className='grid-container grid-img back-massage-img'>
@@ -58,15 +62,12 @@ const Home = () => {
                         <div className='explanation-text-container'>
                             <h3 className='subheading explanation-title'>L'approche</h3>
                             <p><strong>Je travaille beaucoup dans la douceur, afin de calmer le système nerveux et
-                                permettre une relaxation optimale. Une fois le corps est recéptif, on peut faire un
-                                travail plus profond sur les muscles, mais toujours en écoutant ses limites, car la
+                                permettre une relaxation optimale. Une fois que le corps est recéptif, on peut faire un
+                                travail plus en profondeur sur les muscles, les émotions et tous les systèmes du corps, mais toujours en écoutant ses limites, car la
                                 détente ne se force pas.</strong></p>
-                            <p><strong>Je mélange souvent divers techniques, selon les besoins et le cas
+                            <p><strong>Je mélange souvent diverses techniques, selon les besoins et le cas
                                 spécifique.</strong></p>
-                            <p>Si ça vous parle, j'aime inclure des éléments de la pleine conscience et du travail avec
-                                la respiration dans une séance, ce qui pourrait faciliter la relaxation.</p>
-                            <p>Selon l'envie et le météo, les séances peuvent s'effectuer dehors dans la nature, ou dans
-                                un charmant et chaleureux atelier transformé en salle de soins.</p>
+                            <p>Si ça vous parle, j'aime inclure des éléments de la pleine conscience et du travail avec la respiration dans une séance, ce qui facilite la relaxation.</p>
                         </div>
                     </div>
                     <div className='grid-child grid-text'>
@@ -75,6 +76,7 @@ const Home = () => {
                                 de yoga</h3>
                             <p><strong>Formations</strong></p>
                             <ul>
+                                <li><strong>Massage thai</strong> - Julien Levy, 2023</li>
                                 <li><strong>Hypose</strong> - Sea School of embodiment, 2020</li>
                                 <li><strong>Connexion corporelle</strong> - Sea School of Embodiment, 2018-2019</li>
                                 <li><strong>Health Coach</strong> - Institute for Integrative Nutrition 2017-2018</li>

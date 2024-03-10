@@ -24,7 +24,7 @@ const Services = () => {
             <section className='tarifs'>
                 <div className='tarifs-text-container'>
                     <h2>Tarifs</h2>
-                    <p><strong>CHF 70 pour 45 minutes et CHF 90 pour 60 minutes</strong></p>
+                    <p><strong>CHF 100 pour 60 minutes et CHF 130 pour 90 minutes</strong></p>
                     <p>J’offre un rabais pour des packs de 3, 5 et 10 séances</p>
                     <p>Merci d’envoyer les paiements à l’IBAN: CH57 0900 0000 1222 8372 2 ou via Twint au +41 78 919 47 37</p>
                 </div>

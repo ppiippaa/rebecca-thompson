@@ -13,7 +13,7 @@ const Home = () => {
 
             <section className='landing-section'>
                 <div className='landing-section-title'>
-                    <h1>Massage Therapeutique</h1>
+                    <h1>Therapeutique</h1>
                     <h2>Epinassey</h2>
                 </div>
                 <div className='landing-section-text-and-image'>

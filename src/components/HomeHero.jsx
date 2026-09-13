@@ -5,7 +5,6 @@ import Subtitle from "./Subtitle";
 import { useTranslation } from "react-i18next";
 import styles from "./HomeHero.module.css";
 import videoBackground from "../assets/video-background.mp4";
-import explanatoryVideo from "../assets/explanatory-video.mp4";
 
 function HomeHero() {
   const { t } = useTranslation();
@@ -25,13 +24,13 @@ function HomeHero() {
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <video
+        {/* <video
           src={explanatoryVideo}
           className={styles.heroImage}
           controls
           muted
           autoplay
-        ></video>
+        ></video> */}
       </div>
     </section>
   );

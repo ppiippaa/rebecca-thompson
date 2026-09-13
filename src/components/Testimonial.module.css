@@ -1,0 +1,27 @@
+.testimonialContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+   
+    
+}
+
+.testimonialContainer p {
+    padding: 1rem;
+}
+
+
+.quoteImg {
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+   

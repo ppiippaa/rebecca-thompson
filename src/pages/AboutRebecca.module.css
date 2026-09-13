@@ -1,0 +1,47 @@
+
+.aboutConatinerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.aboutRebeccaTextContainer {
+    text-align: left;
+    background-color: var(--color-accent-pink-trsp);
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+}
+
+.aboutContainerImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.aboutRebeccaImage {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 1200px) {
+   .pageSection {
+    margin: 0 20px;
+   } 
+
+   .aboutContainerImages {
+        display: none;
+    }
+
+}
+
+@media (max-width: 780px) {
+    
+}

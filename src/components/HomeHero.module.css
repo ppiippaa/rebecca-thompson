@@ -1,0 +1,38 @@
+.heroContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: calc(100vh - 65px);
+    position: relative;   
+}
+
+.videoBackground {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.heroTextContainer {
+    max-width: 60%;
+}
+
+.heroImage {
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .heroTextContainer {
+    max-width: 80%;
+  }
+  
+    .imgContainer {
+    display: none;
+  }
+}

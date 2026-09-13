@@ -1,0 +1,17 @@
+.pageContainer {
+    margin: 0 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .buttonContainer {
+        flex-direction: column;
+    }
+}

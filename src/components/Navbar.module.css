@@ -1,0 +1,52 @@
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px 0px;
+    margin: 0;
+}
+
+.menuButton {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .menuButton {
+    display: block;
+    margin: 16px;
+  }
+
+  .navList {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navList.open {
+    display: flex;
+  }
+}
+
+
+nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+nav button {
+    font-family: var(--font-body);
+    font-weight: 500;
+    background: #006f6044;
+    border-radius: 4px;
+    border: 1px solid var(--color-text);
+    padding: 4px 6px;
+}
+

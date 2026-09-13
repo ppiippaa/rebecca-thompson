@@ -1,0 +1,70 @@
+/* for global styles */
+
+:root {
+--font-heading: "Elms Sans", serif;
+--font-body: "Montserrat", sans-serif;
+--background: #fefefe;
+--color-text: #2c2e2d;
+--color-accent-mint: #a4d8d8;
+--color-accent-pink: #7a72bd;
+--color-accent-mint-trsp: #a4d8d850;
+--color-accent-pink-trsp: #7a72bd50;
+
+
+
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 3px;
+  }
+}
+h2 {
+  
+  font-weight: 650;
+  font-size: 1.2rem;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 1.25rem;
+  }
+}
+p {
+  margin: 1rem;
+}
+
+

@@ -1,0 +1,100 @@
+/* .pageSection {
+    position: relative;
+    isolation: isolate;
+} */
+
+.videoBackground {
+    /* position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 99vw;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; */
+    position: absolute;
+    top: 0;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 99vw;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.infoBoxContainer {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 40px 0;
+}
+
+
+.infoBox, .linkBox {
+    background-color: rgba(254, 254, 254, 0.9);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.infoBox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoBox ul {
+    text-align: left;
+}
+
+.linkBox {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkBox img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+.linkBox a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.linkBox a:hover {
+    font-weight: bold;
+}
+
+.infoBox p {
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+   .pageSection {
+    margin: 0 20px;
+   } 
+
+
+   .infoBoxContainer {
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+   }
+}
+
+@media (max-width: 768px) {
+    .infoBoxContainer {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto;
+    }
+}

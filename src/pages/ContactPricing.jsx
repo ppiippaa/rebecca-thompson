@@ -60,6 +60,7 @@ function ContactPricing() {
           <ul>
             <li>{t("contactAndPricing.pricingBullet31")}</li>
             <li>{t("contactAndPricing.pricingBullet32")}</li>
+            <li>{t("contactAndPricing.pricingBullet33")}</li>
           </ul>
         </div>
       </div>

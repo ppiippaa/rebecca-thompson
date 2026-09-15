@@ -63,11 +63,12 @@ const fr = {
         button1: "Réserver une séance",
         button2: "Organiser un appel de clarté gratuit",
         button3: "Lieu (basée à Bex, CH)",
-        pricingBullet1: "Une séance coûte 110.- et dure entre 60 et 90 minutes. J’offre une première séance gratuite",
+        pricingBullet1: "Une séance coûte CHF 110 et dure entre 60 et 90 minutes. Un dépôt de CHF 50 est requis pour sécuriser votre réservation, qui sera déduit du coût total de la séance.",
         pricingBullet2: "Si les finances sont un sujet de préoccupation, n’hésitez pas à me contacter — nous pourrons discuter d’un arrangement qui convienne à chacun.",
         pricingBullet3: "Les paiements peuvent être effectués par les moyens suivants :",
-        pricingBullet31: "IBAN : CH57 0900 0000 1222 8372 2",
-        pricingBullet32: "Twint : +41 78 919 47 37",
+        pricingBullet31: "IBAN",
+        pricingBullet32: "Twint",
+        pricingBullet33: "Cash"
     },
 
     otherServices: {
@@ -84,7 +85,7 @@ const fr = {
             intuitiveReadings: {
                 name: "Lectures intuitives",
                 subtitle: "Séance individuelle",
-                description: "Les lectures intuitives sont une manière d’obtenir des éclairages sur votre vie et votre situation actuelle. J’utilise mon intuition et mes capacités psychiques pour me connecter à votre énergie et vous apporter des conseils et de la clarté sur les sujets qui sont les plus importants pour vous."
+                description: "Les lectures intuitives sont une manière d’obtenir des éclairages sur votre vie et votre situation actuelle. J’utilise mon intuition  pour me connecter à votre énergie et vous apporter des conseils et de la clarté sur les sujets qui sont les plus importants pour vous."
             },
             intuitiveTouch: {
                 name: "Toucher intuitif",
@@ -94,7 +95,7 @@ const fr = {
             massageTherapy: {
                 name: "Massage thérapeutique",
                 subtitle: "Séance individuelle",
-                description: "Lorsque nous sommes détendus, ancrés et ouverts, il devient beaucoup plus facile d’être attentif et d’écouter ce que notre corps et notre psyché cherchent à nous transmettre. Le massage thérapeutique est également une manière de libérer les émotions, de se défaire d’anciens schémas devenus inutiles et de créer de nouvelles connexions neuronales. Je propose une approche personnalisée et intuitive du toucher thérapeutique, pouvant inclure des éléments de massage classique, de points de pression, de massage abdominal, de massage yoga thaï, de reiki ou de travail énergétique, de libération myofasciale ou de soin yoni, selon vos besoins et vos préférences."
+                description: "Lorsque nous sommes détendus, ancrés et ouverts, il devient beaucoup plus facile d’être attentif et d’écouter ce que notre corps et notre psyché cherchent à nous transmettre. Le massage thérapeutique est également une manière de libérer les émotions, de se défaire d’anciens schémas devenus inutiles et de créer de nouvelles connexions neuronales. Je propose une approche personnalisée et intuitive du toucher thérapeutique, pouvant inclure des éléments de massage classique, de points de pression, de massage abdominal, de massage yoga thaï, de reiki ou de travail énergétique, ou de libération myofasciale, selon vos besoins et vos préférences."
             },
             therapeuticSongwriting: {
                 name: "Écriture de chansons thérapeutiques",

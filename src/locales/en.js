@@ -64,11 +64,12 @@ const en = {
         button1: "Book a session",
         button2: "Arrange a free clarity call",
         button3: "Location (based in Bex, CH)",
-        pricingBullet1: "A session costs 110.- and lasts for 60-90 minutes. I offer a first session for free.",
-        pricingBullet2: "If finances are a concern, please get in touch—we can discuss an arrangement that works for both of us.",
+        pricingBullet1: "A session costs CHF 110 and lasts for 60-90 minutes. A deposit of CHF 50 is required to secure your booking, which will be deducted from the total cost of the session.",
+        pricingBullet2: "If finances are a concern, please get in touch — we can discuss an arrangement that works for both of us.",
         pricingBullet3: "Payments can be made using the following methods:",
-        pricingBullet31: "IBAN : CH57 0900 0000 1222 8372 2",
-        pricingBullet32: "Twint : +41 78 919 47 37",
+        pricingBullet31: "IBAN",
+        pricingBullet32: "Twint",
+        pricingBullet33: "Cash"
     },
 
     otherServices: {
@@ -85,7 +86,7 @@ const en = {
             intuitiveReadings: {
                 name: "Intuitive Readings",
                 subtitle: "Individual Session",
-                description: "Intuitive readings are a way to gain insight into your life and your current situation. I use my intuition and psychic abilities to connect with your energy and provide guidance and clarity on the issues that are most important to you."
+                description: "Intuitive readings are a way to gain insight into your life and your current situation. I use my intuition to connect with your energy and provide guidance and clarity on the issues that are most important to you."
             },
             intuitiveTouch: {
                 name: "Intuitive Touch",
@@ -95,7 +96,7 @@ const en = {
             massageTherapy: {
                 name: "Massage Therapy",
                 subtitle: "Individual Session",
-                description: "When we are relaxed, grounded and open, it is a lot easier to be aware of and listen to what our body and psyche may be telling us. Massage therapy is also a way to release emotions, let go of old unecessary patterns, and create new neural pathways. I propose a personalised and intuitive blend of therapeutic touch, which may contain elements of classical massage, pressure points, belly massage, thai yoga massage, reiki or energy work, myofascial release, or yoni healing, depending on your needs and preferences."
+                description: "When we are relaxed, grounded and open, it is a lot easier to be aware of and listen to what our body and psyche may be telling us. Massage therapy is also a way to release emotions, let go of old unecessary patterns, and create new neural pathways. I propose a personalised and intuitive blend of therapeutic touch, which may contain elements of classical massage, pressure points, belly massage, thai yoga massage, reiki or energy work or myofascial release, depending on your needs and preferences."
             },
             therapeuticSongwriting: {
                 name: "Therapeutic Songwriting",

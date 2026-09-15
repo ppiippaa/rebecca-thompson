@@ -20,9 +20,10 @@
     },
     {
       id: "workshops",
-      sessionImage: workshopsImg,
+      sessionImage: worldFolkImg,
     },
   ];
+  /*HAVE SWAPPED WORKSHOPSIMG WITH WORLDFOLKIMG*/ 
 
 
 export const otherServicesInfo = [
@@ -48,7 +49,7 @@ export const otherServicesInfo = [
   },
   {
     id: "intuitiveVoiceWorldFolk",
-    serviceImage: worldFolkImg
+    serviceImage: workshopsImg
   }
 ]
 

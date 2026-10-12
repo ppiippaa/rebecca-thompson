@@ -42,9 +42,9 @@ const en = {
                 description: "Voice coaching to help access, channel and move emotions, ground and center, integrate undigested experiences, and affirm how you speak up in the world. During this session I will take you by the hand and guide you to follow my own voice, so that you can activate your own through the process of resonance. We will use different voice and therapeutic techniques to explore your voice and emotions, listening closely to the body's story and what it wants to express. *Singing ability is NOT a prerequisite for these sessions."
             },
             workshops: {
-                title: "Workshops",
+                title: "Intuitive Voice Workshops",
                 type: "Group Session",
-                description: "This energy healing involves placing my hands just above specific energy centres of your body, while accompanying with my voice as a channel and support for your personal process, which can be a very effective way of shifting emotional structures through resonance. It consists of unblocking stagnant energies/emotions, reharmonising energy centres, and reconnecting to your innate wisdom related to a theme or problem you would like to transform. It can be a deeply relaxing yet also powerful and transformational experience, allowing the integration and release of past unresolved experiences. *Available on request or, check out events page."
+                description: "A safe space where you will be guided in the exploration and expression of your authentic voice, through various voice exercises and, most importantly, through the experience of singing together as a group. During these workshops you are invited to let the live music and singing move through you, so that you can activate your own expression through the process of resonance. *Singing ability is NOT a prerequisite for these sessions."
             },
         },
         testimonialsSubtitle: "Testimonials",
@@ -64,7 +64,7 @@ const en = {
         button1: "Book a session",
         button2: "Arrange a free clarity call",
         button3: "Location (based in Bex, CH)",
-        pricingBullet1: "A session costs CHF 110 and lasts for 60-90 minutes. A deposit of CHF 50 is required to secure your booking, which will be deducted from the total cost of the session.",
+        pricingBullet1: "A session costs CHF 150 and lasts for 60-90 minutes. A deposit of CHF 50 is required to secure your booking, which will be deducted from the total cost of the session.",
         pricingBullet2: "If finances are a concern, please get in touch — we can discuss an arrangement that works for both of us.",
         pricingBullet3: "Payments can be made using the following methods:",
         pricingBullet31: "IBAN",
@@ -86,12 +86,7 @@ const en = {
             intuitiveReadings: {
                 name: "Intuitive Readings",
                 subtitle: "Individual Session",
-                description: "Intuitive readings are a way to gain insight into your life and your current situation. I use my intuition to connect with your energy and provide guidance and clarity on the issues that are most important to you."
-            },
-            intuitiveTouch: {
-                name: "Intuitive Touch",
-                subtitle: "Individual Session",
-                description: "Similar to an intuitive reading, but we contact the psyche kinesthetically as well as through dialogue, which can activate parts of it that are hard to reach through words alone."
+                description: "During an intuitive reading I enter into connection with the messages of your unconscious mind related to a specific theme or difficulty, and I channel these messages so that they can express themselves and communicate withyou. This communication generally happens through dialogue, but there is also an option to include communication through touch, as connecting the psyche kinesthetically can sometimes activate parts of it that are hard to reach through words alone."
             },
             massageTherapy: {
                 name: "Massage Therapy",
@@ -104,9 +99,9 @@ const en = {
                 description: "A guided experience assisting you as you make contact with your own felt sense and allow your body and unconscious mind to communicate its wisdom through your own personal metaphors. Exploring how to put this expression into a melody that resonates with your emotions, allowing for the emotional integration or inner transformation of your experiences."
             },
             intuitiveVoiceWorldFolk: {
-                name: "Intuitive Voice: World & Folk Music",
+                name: "Live Music",
                 subtitle: "Group Session",
-                description: "Intuitive voice accompanied by folk and world inspired music on violin and guitar, I give various guided group sessions."
+                description: "Live intuitive music inspired by world traditions using voice, violin and guitar, for expressive dance and movement, rituals and meditation. To see any upcoming events, check out my Workshops & Events page, or contact me directly to arrange your own."
             }
         }
     },
@@ -115,8 +110,8 @@ const en = {
         title: "About Rebecca",
         subtitle: "Bodyworker, Yoga Teacher, Musician, Singer and Poet",
         description: "I have spent the last fifteen years studying and working with hypersensitivity; the nervous system and trauma; neurodivergence and right brain dominance; relationship patterns, emotions and the felt sense. Singing, music, and poetry are the centre of my life and are intricately woven together with my therapeutic background to create my work with emotional healing.",
-        approachSubtitle: "Approach",
-        approachDescription: "I focus on gentle touch to calm the nervous system and promote optimal relaxation. Once the body is receptive, we can work more deeply on the muscles emotions, and all the body’s systems—but always while being mindful of your limits, because relaxation cannot be forced. I often combine various techniques, depending on your needs and the specific situation. If this resonates with you, I like to incorporate elements of mindfulness and breathwork into a session, which helps facilitate relaxation.",
+        approachSubtitle: "Approach", 
+        approachDescription: "When working with emotions, the body and the nervous system, we must learn to slow things right down. Understanding on a gut level is a much longer process than understanding something intellectually. I work at the rhythm the organism needs, with gentleness and respect. I meet what there is without pushing, and I listen without trying to change anything. Radical acceptance is key to inner transformation. This is your journey, and my role is not to tell you what to do, but to be a communication channel as you connect with what you already know.",
         qualificationsSubtitle: "Qualifications",
         qualifications: {
             intuitiveGuidance: {

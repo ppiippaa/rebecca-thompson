@@ -36,10 +36,6 @@ export const otherServicesInfo = [
     serviceImage: intuitiveReadingsImg
   },
   {
-    id: "intuitiveTouch",
-    serviceImage: intuitiveTouchImg
-  },
-  {
     id: "massageTherapy",
     serviceImage: massageTherapyImg
   },

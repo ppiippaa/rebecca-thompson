@@ -42,7 +42,7 @@ function Navbar() {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/@rebeccathompson1762"
+            href="https://www.youtube.com/@rebeccathompsonmusic"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}

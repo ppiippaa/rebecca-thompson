@@ -16,6 +16,15 @@
     border-radius: 20px;
 }
 
+.aboutRebeccaTextContainerMint {
+    text-align: left;
+    background-color: var(--color-accent-mint-trsp);
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+}
+
 .aboutContainerImages {
     display: flex;
     flex-direction: row;
@@ -30,6 +39,10 @@
     border-radius: 20px;
 }
 
+.aboutMobileImgContainer {
+    display: none;
+}
+
 
 @media (max-width: 1200px) {
    .pageSection {
@@ -40,6 +53,20 @@
         display: none;
     }
 
+    .aboutConatinerText {
+        margin-bottom: 0;
+    }
+
+    .aboutMobileImgContainer {
+        display: block;
+        margin-top: 0;
+    }
+
+    .aboutMobileImg {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
 }
 
 @media (max-width: 780px) {

@@ -55,18 +55,15 @@ function HomeAbout() {
           <p>{t("home.aboutText3")}</p>
         </div>
       </div>
-      <div className={styles.videoContainer}>
-        <video src={landingVideo} controls muted />
+      <div className={styles.mobileVideoContainer}>
+        <iframe
+          src="https://www.youtube.com/embed/r-TTP7mizJ8"
+          title="YouTube Short"
+          className={styles.heroImage}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
-      {/* <div className={styles.mobileVideoContainer}>
-        <video
-          // src={explanatoryVideo}
-          src
-          controls
-          muted
-          className={styles.mobileVideo}
-        />
-      </div> */}
     </section>
   );
 }

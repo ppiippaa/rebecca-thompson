@@ -24,13 +24,13 @@ function HomeHero() {
         </div>
       </div>
       <div className={styles.imgContainer}>
-        {/* <video
-          src={explanatoryVideo}
+        <iframe
+          src="https://www.youtube.com/embed/r-TTP7mizJ8"
+          title="YouTube Short"
           className={styles.heroImage}
-          controls
-          muted
-          autoplay
-        ></video> */}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
     </section>
   );

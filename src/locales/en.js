@@ -13,6 +13,7 @@ const en = {
         heroTitle: "Intuitive Voice and Music for Emotional Healing",
         heroSubtitle: "The Only Way Out Is Through",
         heroText: "Voice workshops, Individual healing with voice sessions, Music for expressive movement, rituals and meditation",
+        homeMobileButton: "Find out more",
         aboutTitle: "Emotional Healing",
         aboutSubtitle: "What Does It Actually Mean?",
         aboutText1: "First, it's about reconnecting the body and the mind, in order to reclaim parts of ourselves that we may have denied, ignored, or rejected because they were linked to experiences that were too difficult or too painful, and we did not have the necessary tools to deal with them at the time.",

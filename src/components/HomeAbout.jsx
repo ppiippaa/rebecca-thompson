@@ -55,6 +55,17 @@ function HomeAbout() {
           <p>{t("home.aboutText3")}</p>
         </div>
       </div>
+
+      <div className={styles.videoContainer}>
+        <iframe
+          src="https://www.youtube.com/embed/WS1w1WDUXhk?start=2"
+          title="Rebecca Thompson – Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
+
       <div className={styles.mobileVideoContainer}>
         <iframe
           src="https://www.youtube.com/embed/r-TTP7mizJ8"

@@ -13,6 +13,7 @@ const fr = {
         heroTitle: "Guérison émotionnelle par le chant et la musique",
         heroSubtitle: "La seule façon d’en sortir, c’est de traverser",
         heroText: "Ateliers de chant, séances thérapeutiques avec la voix, musique pour le mouvement expressif, les rituels et la méditation",
+        homeMobileButton: "En savoir plus",
         aboutTitle: "La guérison émotionnelle",
         aboutSubtitle: "Qu’est-ce que cela signifie réellement?",
         aboutText1: "Tout d’abord, il s’agit de reconnecter le corps et l’esprit afin de retrouver des parties de nous-mêmes que nous avons peut-être reniées, ignorées ou rejetées parce qu’elles étaient liées à des expériences trop difficiles ou trop douloureuses, et que nous n’avions pas les outils nécessaires pour y faire face à ce moment-là.",
